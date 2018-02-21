@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body { 
+    background: 
+   linear-gradient(
+      rgba(0, 0, 0, 0.0), 
+      rgba(0, 0, 0, 0.0)
+    ),
+    url(http://www.risetopeace.org/wp-content/uploads/2016/08/different-backgrounds-website-sphere-beautiful-background-web-wallpapers.jpg) center center no-repeat; 
+    background-size: cover; 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #9e0d0df0;
+    font-family: raleway;
+}
+
+/*================Header Section===============*/
+
+.header-title {
+  color: #c66c6c;
+  font-family: raleway;
+  font-size: 3.5rem;
+  margin-top: 3.5rem;
+}
+
+/*===================Quote Section======================*/
+
+#quote-container {
+  background-color: rgba(110, 142, 6, 0.33);
+  border-radius: 0px;
+  padding: 4rem;
+}
+
+.quote-align {
+  color: white;
+  text-align: center;
+}
+
+.quote-text {
+  color: white;
+}
+
+.quote-icon {
+  padding-bottom: 1rem;
+}
+
+.glyphicon {
+  color: white;
+  font-size: 1rem;
+  padding-right: 7rem;
+}
+
+.btn-align {
+  text-align: center;
+}
+
+.btn {
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.42);
+
+
+}
+
+
+.twitter {
+  color: white;
+  position: right;
+  margin: 2rem 0 0 2rem;
+}
+
+/*=====================Footer Section===================*/
+
+#footer {
+  color: white;
+}
+
+.social {
+  color: white;
+  padding-right: 0.5rem;
+}
