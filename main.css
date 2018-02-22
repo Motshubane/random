@@ -9,11 +9,11 @@ body {
     ),
     url(http://www.risetopeace.org/wp-content/uploads/2016/08/different-backgrounds-website-sphere-beautiful-background-web-wallpapers.jpg) center center no-repeat !important; 
     background-size: cover ;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    color: #9e0d0df0;
+    color: #bd0202ab;
     font-family: raleway !important;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .header-title {
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-top: 3.5rem;
 }
 
