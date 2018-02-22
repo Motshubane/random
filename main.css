@@ -7,12 +7,8 @@ body {
       rgba(0, 0, 0, 0.0), 
       rgba(0, 0, 0, 0.0)
     ),
-    url(http://www.risetopeace.org/wp-content/uploads/2016/08/different-backgrounds-website-sphere-beautiful-background-web-wallpapers.jpg) no-repeat center center fixed; 
+    url(http://www.risetopeace.org/wp-content/uploads/2016/08/different-backgrounds-website-sphere-beautiful-background-web-wallpapers.jpg) no-repeat center top !important; 
     background-size: cover;
-    -webkit-background-sie: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
     height: 100vh;
     justify-content: center;
     box-sizing: border-box;
