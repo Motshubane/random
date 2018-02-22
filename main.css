@@ -21,8 +21,8 @@ body {
 .header-title {
   color: #ffffff;
   font-family: raleway;
-  font-size: 4rem;
-  margin-top: 20%;
+  font-size: 3.5rem;
+  margin-top: 3.5rem;
 }
 
 /*===================Quote Section======================*/
@@ -30,7 +30,7 @@ body {
 #quote-container {
   background-color: rgba(110, 142, 6, 0.33);
   border-radius: 0px;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .quote-align {
@@ -73,7 +73,7 @@ body {
 /*=====================Footer Section===================*/
 
 #footer {
-
+  color: white;
 }
 
 .social {
