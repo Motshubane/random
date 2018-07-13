@@ -26,6 +26,3 @@ How to make a GitHub Page : https://pages.github.com/
 FCC Challenge: https://www.freecodecamp.org/challenges/build-a-random-quote-machine 
 Videos about data and APIs in JavaScript: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r
 
-
-
-https://drive.google.com/open?id=18xTAGyVGjXDwhLswwrKJpNIRDysQvDdi
