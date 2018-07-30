@@ -1,3 +1,6 @@
+
+CLICK HERE TO VIEW RUNNING VERSION: https://motshubane.github.io/random/
+
 Brief: Create a Random Quote Generator
 
 Summary:
@@ -31,4 +34,3 @@ Videos about data and APIs in JavaScript: https://www.youtube.com/playlist?list=
 ![screenshot from 2018-07-18 11-30-10](https://user-images.githubusercontent.com/33928691/42872756-0f2bb086-8a7e-11e8-8a24-16b4ac9970c9.png)
 
 
-CLICK HERE: https://motshubane.github.io/random/
