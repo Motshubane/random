@@ -1,12 +1,12 @@
 
-CLICK HERE TO VIEW RUNNING VERSION: https://motshubane.github.io/random/
+# CLICK HERE TO VIEW RUNNING VERSION: https://motshubane.github.io/random/
 
-Brief: Create a Random Quote Generator
+# Brief: Create a Random Quote Generator
 
-Summary:
+# Summary:
 Create an app that displays random quotes at the push of a button.
 
-Details:
+# Details:
 The details of the project can be found on FreeCodeCamp.
 https://www.freecodecamp.org/challenges/build-a-random-quote-machine
 
@@ -14,7 +14,7 @@ You will need to review the preceding section on FreeCodeCamp titled “JSON API
 
 Don’t look at the example code on CodePen. After you review the JSON/APIs section, write out all the steps you will need to complete the project. This a good opportunity to practice using pseudocode!
 
-Requirements:
+# Requirements:
 
 Complete the FreeCodeCamp challenge (including the ability for a user to tweet the quote)
 Don’t use CodePen
