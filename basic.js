@@ -1,32 +1,35 @@
-$(document).ready(function() {
-    var htmlText = "";
-    var author = "";
-    var url = "https://twitter.com/intent/tweet?text=";
-    
-    //Pre-Load Quote API Text
-    function randomQuote() {
-       $(".quote-text").html("<i class='fa fa-circle-o-notch fa-spin fa-2x fa-fw'></i>");
-        $.getJSON("https://random-quote-generator.herokuapp.com/api/quotes/random", function(data) {
-        
-            htmlText = data.quote; 
-            author = data.author;
-
-            $(".quote-text").html(htmlText);
-            $(".quote-src").html(author);
-            
-            $("a.link").attr("href", url + htmlText + " -" + author); 
-        
-        });
-    }
-    
-    randomQuote();
-    
-    //Generate random quote upon button click
-
-    $(".btn").on("click", function() {
-        
-        randomQuote();
-                
-    });
-    
+var btn = $('#new-quote');
+var quote = $('#quote');
+var author = $('#author');
+var tweetBtn = $('#twitter-share');
+var qT = "";
+var qA = "";
+btn.on('click', function() {
+    newQuote();
 });
+tweetBtn.on('click', function() {
+    tweetBtn.attr('href', 'https://twitter.com/intent/tweet?hashtags=quoteoftheday&related=freecodecamp&text=' + encodeURIComponent('"' + qT + '-' + qA)); 
+});
+
+function newQuote() {
+    $.ajax({
+      url: "https://api.forismatic.com/api/1.0/",
+      jsonp: 'jsonp',
+      dataType: 'jsonp',
+      data: {
+          method: 'getQuote',
+          lang: 'en',
+          format: 'jsonp'
+      },
+      success: function(response) {
+        qT = response.quoteText;
+        qA = response.quoteAuthor;
+        quote.text(qT);
+        if(qA) {
+            author.text('- ' + qA);
+        } else {
+            author.text('- unknown');
+        }
+          
+      } });
+}
