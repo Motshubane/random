@@ -38,20 +38,22 @@ body {
   padding: 1em;
 }
 
-.quote-text {
+#quote{
   color: #ffffff;
   font-weight: 500;
 }
 
-.text {
+#author {
   color: #f44336a3;
+  text-align: center !important;
 }
 
 .btn {
 font-size: 1rem;
     background-color: #ffffff;
     font-size: 1rem;
-    background-color: rgba(25, 24, 24, 0.6):;
+
+    text-decoration: none;
     color: #000;
     margin-left: 1e;
     /* letter-spacing: 1px; */
@@ -59,22 +61,6 @@ font-size: 1rem;
     border-radius: 4px;
     line-height: 1;
 }
-
-
-
-
-/*.twitter {
-  color: ##8465a5;
-  position: right;
-  margin: 2rem 0 0 2rem;
-}
-*/
-/*=====================Footer Section===================*/
-
-/*#footer {
-  color: ##8465a5;
-  font-weight: 500px;
-}*/
 
 .social {
     color: #000000;
