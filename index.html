@@ -8,7 +8,10 @@
   
   <!--==========Bootstrap CSS CDN==========-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <!--===================CSS================-->
   <link rel="stylesheet" href="main.css">
 </head>
@@ -31,19 +34,20 @@
     <section id="quote-container">
       <div class="row api-quote-container">
         <div class="col-md-12">
-          <p class="lead quote-text text-center"></p>
-          <p class="quote-src text-center text"></p>
+      <p class="load text-center" id="quote"><i class='fa fa-circle-o-notch fa-spin fa-2x fa-fw'></i></p>
+          <p class="text-right" id="author"></p>
         </div>
       </div>
 
 <!--==============NEW QUOTE BUTTON=============-->
       <div class="row btn-container">
         <div class="col-md-12 btn-align text-center">
-          <button type="button" class="btn  btn-md"><i>new quote</i></button>
+          <button type="button" class="btn btn-primary btn-md" id="new-quote">quote</button>
 
             
 <!--===========TWEET QUOTE BUTTON===========-->
-          <a href="#" target="_blank" class="link"><i class="btn  btn-md" aria-hidden="true"> tweet quote</i></a>
+           <button type="button" class="btn" ><a id="twitter-share" >tweet</a></button>
+
         </div>
       </div>
     </section>
